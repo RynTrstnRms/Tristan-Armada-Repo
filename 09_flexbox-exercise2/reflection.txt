@@ -1,0 +1,13 @@
+After spending 7 hours on this challenge, I’ve gained a lot of insight into implementing layouts with Flexbox.
+
+Difficulties Faced
+
+Getting exact sizing right was my biggest challenge - balancing between relative units and fixed values.
+
+Maintaining responsiveness while working with fixed-size elements was a constant struggle.
+
+how i solved them
+
+Used pixel values for widths (400px for left panel, 150px for right boxes) with consistent 20px gaps
+
+Combined flex properties with fixed dimensions to achieve the desired layout

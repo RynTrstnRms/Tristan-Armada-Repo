@@ -1,0 +1,3 @@
+My approach to breaking down the YouTube interface was to first identify the primary structural components before examining the smaller elements within each section. I started with the most prominent elements - the top navigation bar, sidebar menu, and main content area - as these create the fundamental architecture of the interface.
+
+The structure follows YouTube’s typical layout, prioritizing navigation (header/sidebar), search functionality, and content discovery (video grid). The header and sidebar focus on user actions and categories, while the search/filter bar and video grid emphasize content organization. Smaller elements like metadata and tags help users quickly assess video relevance.

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    
+    <form action="#" method="post">
+        <div>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+        </div>
+        
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <p>How satisfied are you with our service?</p>
+            <label><input type="radio" name="satisfaction" value="Very Satisfied"> Very Satisfied</label><br>
+            <label><input type="radio" name="satisfaction" value="Satisfied"> Satisfied</label><br>
+            <label><input type="radio" name="satisfaction" value="Neutral"> Neutral</label><br>
+            <label><input type="radio" name="satisfaction" value="Dissatisfied"> Dissatisfied</label><br>
+            <label><input type="radio" name="satisfaction" value="Very Dissatisfied"> Very Dissatisfied</label><br>
+        </div>
+        
+        <br>
+        
+        <div>
+            <p>What features do you value most? (Select all that apply)</p>
+            <label><input type="checkbox" name="features" value="Ease of Use"> Ease of Use</label><br>
+            <label><input type="checkbox" name="features" value="Design"> Design</label><br>
+            <label><input type="checkbox" name="features" value="Performance"> Performance</label><br>
+            <label><input type="checkbox" name="features" value="Support"> Customer Support</label><br>
+        </div>
+        
+        <br>
+        <div>
+            <label for="role">What best describes you?</label>
+            <select id="role" name="role">
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Hobbyist">Hobbyist</option>
+                <option value="Other">Other</option>
+            </select>
+        </div><br>
+        
+        <div>
+            <label for="comments">Additional comments or suggestions:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        </div>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

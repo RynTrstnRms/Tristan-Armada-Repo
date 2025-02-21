@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section about-me">
+        <h2>About Me</h2>
+        <img id="profile-img" src="profile.jpg" alt="Profile Picture">
+        <p>I'm Tristan, a 4th-year IT student who loves learning programming, especially web design and front-end
+            development. I'm always looking for ways to improve my skills while striving to be more proactive and go the
+            extra mile in everything I do.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>CWD PROJECT</td>
+                <td>A web development project focused on responsive design</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>RedCards</td>
+                <td>An online shop/showcase of playing cards using HTML & CSS</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Web-based Game</td>
+                <td>A Web Game About How Image Recognition Works</td>
+                <td>2024</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form>
+
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+
+            <fieldset>
+                <legend>How did you hear about this portfolio?</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="reference" value="Friend" required> Friend</label>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="reference" value="Social Media"> Social Media</label>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="reference" value="Search Engine"> Search Engine</label>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="reference" value="Other"> Other</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills/Interests</legend>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="skills" value="Web Development"> Web Development</label>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="skills" value="Design"> Design</label>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="skills" value="Photography"> Photography</label>
+                </div>
+            </fieldset>
+
+            <label for="comments">Comments or Messages:</label>
+            <textarea id="comments" name="comments" placeholder="Enter your message here..." rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© Ryan Tristan Ramos 2025</p>
+    </footer>
+</body>
+
+</html>
