@@ -12,6 +12,7 @@
     <div class="container">
         <header class="header">
             <img src="./Assets/logo-stackoverflow.png" alt="Stack Overflow logo" class="logo">
+            
             <nav class="nav-links">
                 <ul>
                     <li><a href="#">About</a></li>
@@ -19,12 +20,14 @@
                     <li><a href="#">OverflowAI</a></li>
                 </ul>
             </nav>
-            <div class="search-container">
-                <input type="text" placeholder="Search..." class="search-input">
+            
+            <div class="search-container" role="search">
+                <input type="search" id="search" placeholder="Search..." class="search-input">
             </div>
+            
             <div class="auth-buttons">
-                <a href="#" class="btn btn-secondary">Log in</a>
-                <a href="#" class="btn btn-primary">Sign up</a>
+                <a href="#" class="btn btn-secondary" role="button">Log in</a>
+                <a href="#" class="btn btn-primary" role="button">Sign up</a>
             </div>
         </header>
 
